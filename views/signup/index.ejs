@@ -1,0 +1,44 @@
+<div ng-controller="myCtrl">
+<div class="container">
+	<div class="well">
+		<h3 class="text-center">Signup</h3>
+	</div>
+	<div class="form-group">	
+			<label class="control-label">Full Name</label>
+			<input type="text"  placeholder="Fullname" class="form-control" ng-model="newdata.fullname">	
+	</div>
+
+
+	<div class="form-group">	
+			<label class="control-label">Address</label>
+			<textarea placeholder="Address" class="form-control" ng-model="newdata.address"></textarea>
+	</div>
+
+	<div class="form-group">	
+			<label class="control-label">Phone</label>
+			<input type="text" placeholder="Phone" class="form-control" ng-model="newdata.phone">
+	</div>
+
+	<div class="form-group">	
+			<label class="control-label">Email</label>
+			<input type="email" placeholder="Email" class="form-control" ng-model="newdata.email">
+	</div>
+
+	<div class="form-group">	
+			<label class="control-label">User Name</label>
+			<input type="text" placeholder="Username" class="form-control" ng-model="newdata.username">
+	</div>
+
+
+	<div class="form-group">		
+			<label class="control-label">Password</label>		
+			<input type="password" placeholder="password" class="form-control" ng-model="newdata.password">	
+	</div>
+
+
+	
+<button class="btn btn-info  btn-block" ng-click="add()"> Signup</button>
+	
+	
+</div>
+</div>
